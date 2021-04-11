@@ -1,0 +1,249 @@
+@media (max-width:1310px) {
+    #left {
+        margin: 25px;
+        width: 450px;
+    }
+    .left_side {
+        margin: 0px;
+        margin-top: 20px;
+    }
+    #right_sec {
+        margin-left: 10px;
+    }
+    .toggle {
+        display: none;
+    }
+    .social-icons-mobile {
+        display: none;
+    }
+    #profile_pic {
+        margin-left: 20px;
+        padding: 10px;
+        width: 340px;
+        height: 300px;
+    }
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+        margin: 10px 10px;
+    }
+}
+
+@media (max-width:1010px) {
+    body {
+        font-size: 1.3em;
+    }
+    #left {
+        margin: 40px 20px;
+        padding: 20px;
+        width: 100%;
+        display: block;
+    }
+    #right_sec {
+        position: inherit;
+    }
+    .toggle {
+        display: none;
+    }
+    .social-icons-mobile {
+        display: none;
+    }
+    #profile_pic {
+        padding: 30px;
+        width: 430px;
+        src: url(/Images/blazer-removebg-preview.jpg);
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    footer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social-icons a {
+        width: 55px;
+        height: 55px;
+        margin: 13px 13px;
+    }
+}
+
+@media (max-width:750px) {
+    .body_text {
+        font-size: 1.2em;
+        text-align: justify;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    #name {
+        color: #5cff85;
+        display: inline-block;
+        font-size: 1.7em;
+    }
+    table th {
+        font-size: 1.3em;
+    }
+    .toggle {
+        display: block;
+        margin-right: 40px;
+    }
+    #left {
+        width: 90%;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .left_side {
+        margin: 10px 0 20px 0;
+    }
+    #skills li {
+        text-align: left;
+    }
+    nav {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    nav a {
+        text-decoration: none;
+        /* margin-left: 25px; */
+    }
+    nav ul li a {
+        /* margin-right: 25px; */
+        justify-content: space-between;
+    }
+    nav a:hover {
+        color: #f1ff5c;
+        font-size: 1.45rem;
+    }
+    nav ul {
+        margin: 0px;
+        margin-top: 44px;
+        padding: 0px;
+        background-color: #252525;
+        /* max-height: 0; */
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: fit-content;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* z-index: 999; */
+        display: none;
+    }
+    nav ul li {
+        padding: 12px;
+        width: 100%;
+        /* padding: 2px 8px; */
+    }
+    .navbar-link {
+        display: flex;
+        text-transform: uppercase;
+        color: #ffa260;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* padding: 2px 8px; */
+        font-weight: 400;
+    }
+    nav ul li a:hover {
+        color: #5cff5c;
+        /* background-color: #1A1A1D; */
+    }
+    nav li:hover {
+        background-color: #3d3d3d;
+    }
+    .toggle:before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 30px;
+        z-index: 1;
+    }
+    .toggle.active:before {
+        content: '\f00d';
+        /* background-color: #252525; */
+        position: fixed;
+        right: 25px;
+        line-height: 0px;
+    }
+    nav.active ul {
+        display: flex !important;
+    }
+    /* nav.hide ul {
+        display: none;
+    }
+     */
+    .table_pad {
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    form input,
+    form textarea {
+        margin: 20px 1px;
+    }
+    form input,
+    form button {
+        margin: 20px 1px;
+    }
+    #profile_pic {
+        padding: 8px;
+        width: 80%;
+        src: url(/Images/blazer-removebg-preview.jpg);
+        height: 360px;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    footer {
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row;
+    }
+    .social-icons {
+        display: none;
+    }
+    .social-icons-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .social-icons-mobile div {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .social-icons-mobile a {
+        width: 61px;
+        height: 61px;
+        margin: 15px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        border-radius: 50%;
+    }
+    .social-icons-mobile a {
+        text-decoration: none;
+    }
+    .social-icons-mobile i,
+    .social i {
+        color: #ffffff;
+    }
+    .social-icons-mobile a:hover {
+        background-color: #1A1A1D;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+        transition: all ease 0.5s;
+    }
+    .social-icons-mobile a:hover i,
+    .social a:hover i {
+        color: #FFFFFF;
+        transition: all ease 0.5s;
+    }
+}
