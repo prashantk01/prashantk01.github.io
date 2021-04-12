@@ -51,7 +51,7 @@
     #profile_pic {
         padding: 30px;
         width: 430px;
-        src: url(/Images/blazer-removebg-preview.jpg);
+/*         src: url(/Images/blazer-removebg-preview.jpg); */
         height: 400px;
         display: flex;
         justify-content: center;
@@ -194,7 +194,7 @@
     #profile_pic {
         padding: 8px;
         width: 80%;
-        src: url(https://github.com/prashantk01/prashantk01.github.io/blob/main/Images/blazer-removebg-preview.jpg);
+/*         src: url(https://github.com/prashantk01/prashantk01.github.io/blob/main/Images/blazer-removebg-preview.jpg); */
         height: 360px;
         display: flex;
         justify-content: center;
