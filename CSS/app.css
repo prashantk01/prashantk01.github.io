@@ -366,3 +366,66 @@ footer {
     color: #FFFFFF;
     transition: all ease 0.5s;
 }
+
+#work_exp img {
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.outerheading {
+    margin-top: 40px;
+    width: 95%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.outerinfo {
+    margin: 0px 10px 10px 50px;
+    top: 0;
+    width: 85%;
+    text-align: justify;
+    font-size: 1.1em;
+    color: #e1f1ff;
+}
+
+.outerinfo:hover {
+    color: #FBEBC1;
+}
+
+.outerheading div {
+    display: inline-block;
+    text-align: center;
+}
+
+#outero {
+    float: left;
+    width: 10%;
+    /* margin-bottom: 15px; */
+}
+
+#outerth {
+    float: right;
+    margin-right: 5px;
+    width: 25%;
+    font-size: .8em;
+}
+
+#outertw {
+
+    float: left;
+    width: auto;
+}
+
+#cname {
+    color: #5cff85;
+    display: inline-block;
+}
+
+#cname:hover {
+    color: #f1ff5c;
+    transform: translateY(-2px);
+    transition: translateY, 0.25s;
+}
