@@ -246,4 +246,32 @@
         color: #FFFFFF;
         transition: all ease 0.5s;
     }
+    
+     #work_exp img {
+        object-fit: cover;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+    }
+    .outerheading {
+        /* margin-top: 40px; */
+        width: 100%;
+    }
+    .outerinfo {
+        width: 90%;
+        margin: 8px 5px 10px 40px;
+    }
+    #outero {
+        float: left;
+        width: fit-content;
+    }
+    #outertw {
+        margin-left: 10px;
+        width: auto;
+    }
+    #outerth {
+        margin-right: 0;
+        width: fit-content;
+        font-size: .5em;
+    }
 }
