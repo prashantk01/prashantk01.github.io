@@ -231,12 +231,12 @@
                 <section class="flex" id="Contact">
                     <div>
                         <h2>Contact Me </h2>
-                        <form action="/">
+                       <form method="POST" name="response-form">
                             <!-- for now required is optional-->
-                            <input type="text" name="" id="re_name" placeholder="Full  Name">
-                            <input type="email" name="" id="re_email" placeholder="Email">
-                            <textarea name="message" cols="25" rows="6" placeholder="Message" id="re_message"></textarea>
-                            <button id="send_text"> <a href="mailto:kumarprince2510@gmail.com">SUBMIT </a></button>
+                           <input type="text" id="re_name" placeholder="Full  Name" required name="Full Name">
+                            <input type="email" id="re_email" placeholder="Email" required name="Email">
+                            <textarea cols="25" rows="6" placeholder="Message" id="re_message" required name="Message"></textarea>
+                            <button id="send_text" name="submit" type="submit"> SUBMIT</button>
                         </form>
                     </div>
                 </section>
@@ -303,6 +303,27 @@
         <!--JQUery-------------------->
         <script type="text/javascript" src="JS/main.js"></script>
         <script type="text/javascript" src="JS/JQuery.js"></script>
+        
+         <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzBnmJUS2heEVRmSZxJfSm6JkBzEn6l0fUK7trk9nZyhoCKyaZdzUghJfzdADPdGQzz/exec'
+            const form = document.forms['response-form']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => alert("Thanks for contacting Me !! I will contact you ASAP"))
+                    .catch(error => console.error('Error!', error.message))
+                    // window.location.reload();
+            })
+        </script>
+
+        
+        
+        
+        
         <script type="text/javascript">
             $(document).ready(function() {
                 $('.toggle').click(function() {
